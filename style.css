@@ -63,3 +63,36 @@ h1 {
 html {
     scroll-behavior: smooth
 }
+
+#picture:hover {
+    transform: scale(0.9)
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: red;
+}
+
+.contact a {
+    color: black;
+    text-shadow: none;
+}
