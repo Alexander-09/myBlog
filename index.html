@@ -1,142 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <title>My Photo Gallery</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>School Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
-    <!-- Start your code from here -->
-    <!-- A jumbotron indicates a big box for calling extra attention to some special content or information -->
-    <div class="jumbotron text-center">
-        <h1>My Robot Wars House Robot Photo Gallery</h1>
+
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Dr Thomlinson C of E Middle School</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#aboutus">ABOUT US</a></li>
+                <li><a href="#students">ACHIEVEMENTS</a></li>
+                <li><a href="#parents">WHATS NEW</a></li>
+                <li><a href="#whatsnew">STUDENTS</a></li>
+                <li><a href="#contactus">CONTACT US</a></li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="marquee">
+        <marquee onmouseover="this.stop()" ; onmouseout="this.start()" ; behavior="alternate" direction="left" scrollamount="6">Welcome to Alex's Dr Thomlinson C of E Middle School Website!</marquee>
     </div>
 
     <div class="container">
-        <!-- Section to create 1 Row and 4 Columns of images -->
-        <section>
-            <div class="row">
-                <div class="column">
-                    <img src="Sir%20Killalot.jpg" style="width:100%">
-                    <img src="Matilda.jpg" style="width:100%">
-                </div>
-                <div class="column">
-                    <img src="Shunt.jpg" style="width:100%">
-                    <img src="Sergeant_%20Bash.jpg" style="width:100%">
-                </div>
-                <div class="column">
-                    <img src="Dead%20Metal.jpg" style="width:100%">
-                    <img src="Growler.jpg" style="width:100%">
-                </div>
-                <div class="column">
-                    <img src="Mr%20Psycho.jpg" style="width:100%">
-                    <img src="Cassius_Chrome..jpg" style="width:100%">
-                </div>
+        <center>
+            <div class="logo">
+                <img src="https://www.northeastjobs.org.uk/controls/ImageHandler/ImageHandler.ashx?orgid=746">
             </div>
-        </section>
+        </center>
 
-        <div id="mycarousel" class="carousel slide">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#mycarousel" data-slide-to="1"></li>
-                <li data-target="#mycarousel" data-slide-to="2"></li>
-                <li data-target="#mycarousel" data-slide-to="3"></li>
-                <li data-target="#mycarousel" data-slide-to="4"></li>
-                <li data-target="#mycarousel" data-slide-to="5"></li>
-                <li data-target="#mycarousel" data-slide-to="6"></li>
-                <li data-target="#mycarousel" data-slide-to="7"></li>
-            </ol>
-            <!-- Slides -->
-            <div class="carousel-inner">
-                <div class="item active">
-                    <center>
-                        <img src="Sir%20Killalot.jpg" class="img-responsive">
-                        <div class="carousel-caption">
-                            <h3>Sir Killalot</h3>
-                            <h3>Weapons: Rotating drill lance and hydraulic cutting claws</h3>
-                        </div>
-                    </center>
-                </div>
-                <div class="item">
-                    <center>
-                        <img src="Matilda.jpg" class="img-responsive">
-                        <div class="carousel-caption">
-                            <h3>Matilda</h3>
-                            <h3>Weapons: Flipper and vertical flywheel</h3>
-                        </div>
-                    </center>
-                </div>
-                <div class="item">
-                    <center>
-                        <img src="Shunt.jpg" class="img-responsive">
-                        <div class="carousel-caption">
-                            <h3>Shunt</h3>
-                            <h3>Weapons: Lifting scoop and axe</h3>
-                        </div>
-                    </center>
-                </div>
-                <div class="item">
-                    <center>
-                        <img src="Sergeant_%20Bash.jpg" class="img-responsive">
-                        <div class="carousel-caption">
-                            <h3>Sergeant Bash</h3>
-                            <h3>Weapons: Crushing claw and flame thrower</h3>
-                        </div>
-                    </center>
-                </div>
-                <div class="item">
-                    <center>
-                        <img src="Dead%20Metal.jpg" class="img-responsive">
-                        <div class="carousel-caption">
-                            <h3>Dead Metal</h3>
-                            <h3>Weapons: Circular saw and pincers</h3>
-                        </div>
-                    </center>
-                </div>
-                <div class="item">
-                    <center>
-                        <img src="Growler.jpg" class="img-responsive">
-                        <div class="carousel-caption">
-                            <h3>Growler</h3>
-                            <h3>Weapon: Jaw crusher</h3>
-                        </div>
-                    </center>
-                </div>
-                <div class="item">
-                    <center>
-                        <img src="Mr%20Psycho.jpg" class="img-responsive">
-                        <div class="carousel-caption">
-                            <h3>Mr Psycho</h3>
-                            <h3>Weapons: Hammer and claw</h3>
-                        </div>
-                    </center>
-                </div>
-                <div class="item">
-                    <center>
-                        <img src="Cassius_Chrome..jpg" class="img-responsive">
-                        <div class="carousel-caption">
-                            <h3>Cassius Chrome</h3>
-                            <h3>Weapon: Interchangeable boxers</h3>
-                        </div>
-                    </center>
-                </div>
-            </div>
-            <!-- Left and right controls -->
-            <a class="left carousel-control" href="#mycarousel" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
+        <div class="page-header col-lg 12 col-md 12 col-sm 12 col-xs 12" id="contactus">
+            <h2 class="text-capitalize">Contact Us</h2>
+        </div>
+
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2271.01707636929!2d-1.903431483876855!3d55.30532373388152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487dfb31814711df%3A0x37683e0baed14a15!2sDr%20Thomlinson%20C%20of%20E%20Middle%20School!5e0!3m2!1sen!2suk!4v1615805419666!5m2!1sen!2suk" width="600" height="450" style="border:10;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
+        <div id="details">
+            <img src="https://www.cubitttowncareers.co.uk/files/headteacher/31rCdNOlYIL%20(1).jpg" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+
+            <h3>Head Teacher</h3>
+
+            <a href="#">
+                <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;emailid</h5>
             </a>
-            <a class="right carousel-control" href="#mycarousel" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
+
+            <a href="#">
+                <h5><i class="fa fa-instagram"></i>&nbsp;&nbsp;instagramid</h5>
+            </a>
+
+            <a href="#">
+                <h5><i class="fa fa-phone-square"></i>&nbsp;&nbsp;phoneid</h5>
             </a>
         </div>
     </div>
-
 </body>
 
 </html>
