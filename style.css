@@ -10,3 +10,50 @@
 .logo {
     padding-top: 50px;
 }
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.aboutus{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border: 1px solid white;
+}
+
+.aboutus img{
+    width: 100%;
+    height: 300px;
+}
+
+.aboutus hr{
+    width: 100%;
+}
+
+.aboutus h5, .aboutus p{
+    margin-left: 20px;
+}
+
+#achievementsID{
+    padding-bottom: 10px;
+}
+
+.heading{
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline-block;
+}
+
+.heading i{
+    float: right;
+}
+
+.text span{
+    color: yellow;
+}
