@@ -100,3 +100,28 @@
     color: black;
     margin-top: 10px;
 }
+
+.students {
+    cursor: pointer;
+}
+
+.students hr {
+    margin-bottom: 10px;
+}
+
+.modal-content {
+    margin-top: 100;
+}
+
+.img_modal {
+    display: inline-block;
+}
+
+.p_modal {
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.modal-body {
+    text-align: center;
+}
