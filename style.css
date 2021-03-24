@@ -11,37 +11,38 @@
     padding-top: 50px;
 }
 
-.row::after{
+.row::after {
     content: "";
     clear: both;
     display: table;
 }
 
-.aboutus{
+.aboutus {
     float: left;
     width: 33.33%;
     padding: 5px;
     border: 1px solid white;
 }
 
-.aboutus img{
+.aboutus img {
     width: 100%;
     height: 300px;
 }
 
-.aboutus hr{
+.aboutus hr {
     width: 100%;
 }
 
-.aboutus h5, .aboutus p{
+.aboutus h5,
+.aboutus p {
     margin-left: 20px;
 }
 
-#achievementsID{
+#achievementsID {
     padding-bottom: 10px;
 }
 
-.heading{
+.heading {
     font-size: 20px;
     padding: 6px 22px;
     border-radius: 10px;
@@ -50,10 +51,52 @@
     display: inline-block;
 }
 
-.heading i{
+.heading i {
     float: right;
 }
 
-.text span{
+.text span {
     color: yellow;
+}
+
+.comic_li {
+    background-color: yellow;
+    margin-top: 13px;
+}
+
+.comic_li h4 {
+    color: black;
+    font-weight: bold;
+    border-bottom: 1px solid white;
+    padding: 8px;
+}
+
+.comic_li img {
+    border-radius: 25px;
+}
+
+.comic_li p {
+    color: black;
+    margin-top: 10px;
+}
+
+.book_li {
+    background-color: greenyellow;
+    margin-top: 13px;
+}
+
+.book_li h4 {
+    color: black;
+    font-weight: bold;
+    border-bottom: 1px solid white;
+    padding: 8px;
+}
+
+.book_li img {
+    border-radius: 25px;
+}
+
+.book_li p {
+    color: black;
+    margin-top: 10px;
 }
